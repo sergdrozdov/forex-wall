@@ -8,7 +8,7 @@ Forex is a decentralized global market where all the world’s currencies trade.
 we need is a simple live wall for tracking currencies. For free keyless and real time API you may use
 https://financialmodelingprep.com/api/v3/forex
 
-Requirements:
+**Requirements:**
 1. The project should use npm/yarn package manage r to manage dependencies.
 2. The client application should be a single page application with 3 components:
 	a. an input field to accept the currency pair (E.g. USD/EUR) as a query string
@@ -25,27 +25,26 @@ Requirements:
 8. Deliver the code either in git or as a zip file.
 9. Make sure to document your project in a simple README file so it would be easier for us to set up, run and test your application.
 
-Guidelines and Tips
-● Implement best practices on how you see fit.
-● Using typescript is a plus.
-● Design the page in such a way that it is user-friendly and responsible. Layout-wise, device-wise, etc.
-● The minimum business requirements are defined in step 5 above. But feel free to add components to make the application easier to use (charts, help links, tooltips, etc.).
-● Be resourceful. The internet is at your disposal.
-● The more you put in the more we can appreciate your time and effort.
-● Bring out your inner Da Vinci! Be creative, innovative and original. Make this your masterpiece.
+**Guidelines and Tips**
+* Implement best practices on how you see fit.
+* Using typescript is a plus.
+* Design the page in such a way that it is user-friendly and responsible. Layout-wise, device-wise, etc.
+* The minimum business requirements are defined in step 5 above. But feel free to add components to make the application easier to use (charts, help links, tooltips, etc.).
+* Be resourceful. The internet is at your disposal.
+* The more you put in the more we can appreciate your time and effort.
+* Bring out your inner Da Vinci! Be creative, innovative and original. Make this your masterpiece.
 
 
-Implementation
-----------------------------------------------------------
-
-FOLDERS STRUCTURE
-----------------------------
-ForexWall\Source\ForexWall				- full application package, .NET 5 solution + React.
-ForexWall\Source\ForexWall\ClientApp	- React application.
+## Implementation
 
 
-PREPARATION
-----------------------------
+### Folders structure
+
+ForexWall\Source\ForexWall				- *full application package, .NET 5 solution + React.*
+ForexWall\Source\ForexWall\ClientApp	- *React application.*
+
+### Preparation
+
 1. Install Node.js if not installed: https://nodejs.org/en/
 2. Navigate 'ForexWall\Source\ForexWall\ClientApp'
 3. Run command line console cmd.exe under administrative privileges.
@@ -59,8 +58,8 @@ or:
 9. npm install --save react-chartjs-2 chart.js
 
 
-HOW TO RUN Forex Live Wall APPLICATION
-----------------------------
+### How to run Forex Live Wall application
+
 1. Navigate application folder \ClientApp.
 2. Run command line console cmd.exe.
 3. npm start
@@ -80,14 +79,14 @@ If you want to test using dummy data (in the case if exchange rate request from 
 Note: 'forex' is endpoint of .NET 5 MVC controller method with random dummy data.
 
 
-FINANCIAL MODELING PREP API
-----------------------------
+## Financial modeling prep api
+
 Documentation: https://financialmodelingprep.com/developer/docs/
 API key: c768145b6c9849a8304f4538df1bb2fc
 
 
-FEATURES
-----------------------------
+## Features
+
 1. Update interval can be changed on demand without submit.
 2. Rate changes indicates with background colors: lower - red, higher - green, no changes - grey.
 
