@@ -1,12 +1,13 @@
 This is a test project for vacancy.
 
-----------------------------------------------------------
 Forex Live Wall
 ----------------------------------------------------------
 
 Forex is a decentralized global market where all the world’s currencies trade. For this exercise, what
 we need is a simple live wall for tracking currencies. For free keyless and real time API you may use
 https://financialmodelingprep.com/api/v3/forex
+
+## Task description
 
 **Requirements:**
 1. The project should use npm/yarn package manage r to manage dependencies.
@@ -50,19 +51,19 @@ ForexWall\Source\ForexWall\ClientApp	- *React application.*
 3. Run command line console cmd.exe under administrative privileges.
 4. Run batch installation install.cmd
 or:
-4. npm install
-5. npm install --save react-router
-6. npm install --save react-router-dom
-7. npm install --save bootstrap
-8. npm install --save reactstrap react react-dom
-9. npm install --save react-chartjs-2 chart.js
+4. `npm install`
+5. `npm install --save react-router`
+6. `npm install --save react-router-dom`
+7. `npm install --save bootstrap`
+8. `npm install --save reactstrap react react-dom`
+9. `npm install --save react-chartjs-2 chart.js`
 
 
 ### How to run Forex Live Wall application
 
 1. Navigate application folder \ClientApp.
 2. Run command line console cmd.exe.
-3. npm start
+3. `npm start`
 4. Press Enter to run the app in development mode.
 5. Open http://localhost:3000 to view it in the browser.
 
@@ -88,5 +89,8 @@ API key: c768145b6c9849a8304f4538df1bb2fc
 ## Features
 
 1. Update interval can be changed on demand without submit.
-2. Rate changes indicates with background colors: lower - red, higher - green, no changes - grey.
+2. Rate changes indicates with background colors:
+   * lower - red.
+   * higher - green.
+   * no changes - grey.
 
