@@ -21,7 +21,7 @@ namespace ForexWall.Controllers
         [HttpGet]
         public IEnumerable<CurrencyExchange> Get()
         {
-            // justo for demo
+            // just for demo
             var rng = new Random();
             return Enumerable.Range(1, 1).Select(index => new CurrencyExchange
             {

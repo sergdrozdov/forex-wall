@@ -41,7 +41,7 @@ https://financialmodelingprep.com/api/v3/forex
 
 ### Folders structure
 
-ForexWall\Source\ForexWall				- *full application package, .NET 5 solution + React.*
+ForexWall\Source\ForexWall				- *full application package, .NET 7 solution + React.*
 ForexWall\Source\ForexWall\ClientApp	- *React application.*
 
 ### Preparation

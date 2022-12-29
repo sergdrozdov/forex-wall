@@ -3,15 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.6.0",
+    "bootstrap": "^4.6.2",
     "chart.js": "^2.9.4",
+    "latest-version": "^7.0.0",
+    "loader-runner": "^4.3.0",
+    "postcss-safe-parser": "^6.0.0",
     "react": "^17.0.2",
-    "react-chartjs-2": "^2.11.1",
+    "react-chartjs-2": "^2.11.2",
     "react-dom": "^17.0.2",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "reactstrap": "^8.9.0",
+    "react-resolve-dependencies": "^0.2.0",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+    "reactstrap": "^8.10.1",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -31,5 +35,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "webpack": "^5.75.0"
   }
 }
